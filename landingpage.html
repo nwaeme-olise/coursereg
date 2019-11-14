@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Landing Page</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+ 
+			body{
+				background-color: black;
+				color:white;
+				font-family:'Montserrat'; 
+				padding:0;
+				margin:0;
+				width:100%;
+				height:100%;
+				overflow-x:hidden;
+			}
+
+			h1{
+				font-size:4rem;
+				position:absolute;
+				left:50%;
+				top:20%;
+				transform:translateX(-50%);
+				white-space: nowrap;
+
+			}
+
+			.button{
+				display: block;
+				position:absolute;
+				left:50%;
+				top:40%;
+				height:2.5rem;
+				padding-top:1.3rem;
+				width:15rem;
+				text-align: center;
+				font-size: 1rem;
+				font-weight:bold;
+				text-decoration: none;
+				transform: translateX(-50%);
+				background-color: white;
+				color:blue;
+				border:white solid 0.2rem; 
+			}
+			.split.left .button:hover{
+				opacity:0.8;
+			}
+			.split.right .button:hover{
+				opacity:0.8;
+			}
+			.split{
+				position:absolute;
+				width:50%;
+				height:100%;
+				overflow:hidden;
+			}
+			.split.left{
+				left:0;
+			}
+			.split.right{
+				right:0;
+			}
+			</style>
+	</head>
+	<body>
+		
+			<div class="split left">
+				<h1>Administrator</h1> 
+				<a href="file:///C:/Users/ADMIN/Documents/adminlogin.html" class="button">Login</a>
+			</div>
+			<div class="split right">
+				<h1>Student</h1>
+				<a href="#" class="button">Login</a>
+			</div>
+		</div>

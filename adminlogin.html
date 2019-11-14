@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Admin Login</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+			h1{
+				
+				color:white;
+				font-family:'Montserrat';
+				text-align:center; 
+			}
+
+			body{
+				background-image:url("https://www.irishtimes.com/polopoly_fs/1.3694931.1542021682!/image/image.jpg_gen/derivatives/box_620_330/image.jpg");
+				 background-repeat: no-repeat;
+  				 background-size: cover;
+  		
+
+
+			}
+
+			form{
+				border:3px solid transparent;
+				padding:10px;
+
+			}
+			.container{
+				margin:auto;
+				position:relative;
+				top:150px;
+				padding:20px 30px; 
+				height:auto;
+				width:300px; 
+				border-radius:10px;
+				background-color: transparent;
+				box-shadow: 0 0 10px 0 #000;
+
+			}
+
+			input [type=text], [type=password], [type=text] {
+				font-family:'Montserrat';
+				width:100%;
+				padding:12px 20px;
+				margin:8px 0;
+				display:inline-block;
+			 	border:1px solid #ccc;
+				box-sizing:border-box;
+				text-align:center;
+			}
+
+			button{
+				font-family:'Montserrat'; 
+				background-color: #000;
+  				color: #fff;
+  				padding: 14px 20px;
+  				margin: 8px 0;
+ 				border: none;
+  				cursor: pointer;
+  				width: 100%;
+  				
+			}
+			button:hover{
+				opacity:0.5;
+			}
+			
+				
+		</style>
+	</head>
+
+	<body>
+		<h1>Administrator Login</h1>
+    	<div class="container">
+    		<form name="login">
+    			<input type="text" placeholder="Username" name= "user" required>
+    			<input type="password" placeholder="Password" name="pword" required><br>
+    			<button type="submit">Login</button>
+    		</div>
+    	</form>
+    
+	</body>
+</html>
