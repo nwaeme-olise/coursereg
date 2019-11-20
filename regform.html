@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Registration form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="regform.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<h1 style="color:steelblue; text-align:center; font-size: 40px">Student form</h1>
+
+	<form>
+
+		<input  type="text" name="last_name" placeholder="lastname" maxlength="20" required>
+		<br>
+
+		<input  type="text" name="first_name" placeholder="firstname" maxlength="20" required>
+		<br>
+		
+		<input  type="text" name="other_name" placeholder="other name" maxlength="20" required>
+		<br>
+
+		<div class="custom-select" style="width: 200px;">
+		  <input list="level" name="level">
+			<datalist id="level"> 
+		    <option value="100">
+		    <option value="200">
+		    <option value="300">
+		    <option value="400">
+		    <option value="500">
+		</datalist>
+	</div>
+		<br>
+		<br>
+
+		<div class="program" style="width: 200px;">
+		  <input list="programme" name="programme">
+			<datalist id="programme"> 
+		    <option value="Accounting">
+		    <option value="Architecture">
+		    <option value="Actuarial Science">
+		    <option value="Building">
+		    <option value="Botany">
+		    <option value="Chemistry">
+		    <option value="Computer Science">
+		    <option value="Chemical Engineering">
+		    <option value="Computer Engineering">
+		    <option value="Dental Science">
+		    <option value="Education">
+		    <option value="Economics">
+		    <option value="English Language">
+		    <option value="Fisheries">
+		    <option value="Law">
+		    <option value="Linguistics">	
+		    <option value="Medical Sciences">
+		    <option value="Mechanical Engineering">
+		    <option value="Mathematics">
+		    <option value="Physics">
+		    <option value="System Engibeering">
+		    <option value="Zoology">
+		</datalist>
+	</div>
+	<br>
+	<br>
+
+
+		<input type="submit" name="Submit">
+
+	</form>
+</body>
+</html>
