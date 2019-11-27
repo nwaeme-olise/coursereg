@@ -1,0 +1,32 @@
+body{
+	background-color: gray;
+}
+input[type=text]{
+	display: inline-block;
+	padding: 5px 5px;
+	/*border-radius: 20px;*/
+	text-align: center;
+}
+.cstat{
+	padding: 5px 5px;
+}
+.container {
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 30px;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  box-shadow: black;
+}
+.btn{
+	border-radius: 5px;
+	text-align: center;
+	background-color: red;
+	color: white;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+}
+

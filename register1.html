@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="reg.css">
+</head>
+<body>
+
+	<h1 style="text-align:center">Register for your program</h1>
+
+	<form method="POST" action="register1.php">
+
+		<div class="container">
+			<label for="course"><b>Input Matric No as Username</b></label>
+		    <input type="text" placeholder="Enter Matric" name="username" required>
+		    <br><br>
+
+		    <label for="course"><b>CourseName</b></label>
+		    <input type="text" placeholder="Enter Course" name="cname" required>
+		    <br><br>
+
+		    <label for="course"><b>Course Code</b></label>
+		    <input type="text" placeholder="Enter Course Code" name="ccode" required>
+		    <br><br>
+
+		    <label for="course"><b>Level</b></label>
+		    <input type="text" placeholder="Enter Level" name="level" required>
+		    <br><br>
+
+		    <label for="course"><b>Program</b></label>
+		    <input type="text" placeholder="Enter Program" name="prog" required>
+		    <br><br>
+
+		    <label for="course"><b>Course Status</b></label>
+		    <select class="cstat" name="cstat">
+			  <option value="Compulsory">Compulsory</option>
+			  <option value="Elective">Elective</option>
+			</select>
+			<br><br>
+
+			<button class="btn" name="submit">Submit</button>     
+		</div>
+	</form>
+
+</body>
+</html>
